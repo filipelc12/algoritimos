@@ -19,17 +19,17 @@ CASE 1
         for(int i = 0; i <= nums.length -1; i++){
             for(int iNside = i+1; iNside<= nums.length -1; iNside++){
                 int soma = nums[i] + nums[iNside];
-                IO.println("Ponteiro interno: " +nums[iNside]);
+                System.out.println("Ponteiro interno: " +nums[iNside]);
                 if( soma == target){
                     retorno[0] = i;
                     retorno[1] = iNside;
-                    IO.println("Soma correta: " +i +" + " +iNside);
+                    System.out.println("Soma correta: " +i +" + " +iNside);
                     return retorno;
                 }
                 soma = 0;
             }
         }
-        IO.println("Target não atingido com inputs passados");
+        System.out.println("Target não atingido com inputs passados");
         return null;
 
     }

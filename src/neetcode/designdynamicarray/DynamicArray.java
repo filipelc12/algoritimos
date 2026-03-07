@@ -77,7 +77,7 @@ public class DynamicArray {
 
     public void imprimeArray(){
         for(int i = 0; i< this.meuArray.length; i++ ){
-            IO.println(this.meuArray[i]);
+            System.out.println(this.meuArray[i]);
         }
     }
 }
