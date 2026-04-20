@@ -13,6 +13,8 @@ public class Main {
 //
 //    System.out.println(Algoritimos.hasDuplicate(nums));
     System.out.println(a.romanToInt("IX"));
+    int[] numero = {1,2,3};
+    a.getConcatenation(numero);
 
 
 
